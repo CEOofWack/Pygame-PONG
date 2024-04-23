@@ -1,7 +1,7 @@
 #Welcome to PONG Pygame! Made by Bisher A with help of
 #Real Python's Pygame tutorial and Tech with Tim's PONG tutorial for collision
 #and calculations
-#as well as Vincent. Thank you!
+#as well as Vincent from our class. Thank you!
 
 #Import the pygame module
 import pygame
