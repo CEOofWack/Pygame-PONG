@@ -1,4 +1,4 @@
-#Welcome to PONG Pygame! Made by Bisher Almazloum with help of
+#Welcome to PONG Pygame! Made by Bisher A with help of
 #Real Python's Pygame tutorial and Tech with Tim's PONG tutorial for collision
 #and calculations
 #as well as Vincent. Thank you!
