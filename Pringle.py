@@ -81,7 +81,7 @@ class ball(pygame.sprite.Sprite):
         self.y += self.y_speed
         self.rect.center = (self.x, self.y)
 
-    #Handles ball colision relative to ball with paddles as well as walls
+    #Handles ball collision relative to ball with paddles as well as walls
     def handle_collision(self, ball, player1, player2):
         if ball.y + ball.radius >= SCREEN_HEIGHT:
             ball.y_speed *= -1
@@ -107,8 +107,7 @@ class ball(pygame.sprite.Sprite):
                     ball.y_speed = -1 *y_speed
 
 
-
-
+points_list = [1,2,3,4,5,6]
 
 #Start up a screen
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
@@ -158,11 +157,11 @@ while running:
     #Draw ball
     screen.blit(ball.surf, ball.rect)
 
-    #Move and handle ball colision
+    #Move and handle ball collision
     ball.move()
     ball.handle_collision(ball, player1, player2)
 
-    #Return ball to initial posistion when scored and add to points2
+    #Return ball to initial position when scored and add to points2
     if ball.x < 0:
         points2 += 1
         ball.x = 500
@@ -173,7 +172,7 @@ while running:
         player1.rect.y = 270
         ball.move()
 
-    #Return ball to initial posistion when scored and add to points1
+    #Return ball to initial position when scored and add to points1
     elif ball.x > 1000:
         points1 += 1
         ball.x = 500
