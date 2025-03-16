@@ -1,1 +1,1 @@
-Why the fuck did I add a license 
+Simple Pong game, everyone doing Pygame has to start somewhere
